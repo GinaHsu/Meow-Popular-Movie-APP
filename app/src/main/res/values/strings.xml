@@ -1,0 +1,17 @@
+<resources>
+
+    <!--Used in Action Bar, and in AndroidManifest to tell the device the name of this app.-->
+    <string name="app_name">Meowna Movie APP</string>
+    <string name="movie_detail_name">Movie Detail</string>
+
+    <!--Used in overflow menu to refresh weather data-->
+    <string name="popular">Popular Movies</string>
+    <string name="error_message">
+        An error has occurred. Please try again by clicking REFRESH
+    </string>
+    <string name="top_rated">Top Rated Movies</string>
+    <string name="movie_time">120 min</string>
+    <string name="filter">Filter</string>
+    <string name="default_movie_image_content_description">Movie Poster Image</string>
+
+</resources>

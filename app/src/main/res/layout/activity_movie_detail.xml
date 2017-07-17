@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:background="@color/movieTitle"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_movie_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/movieBackground">
+
+            <TextView
+                android:id="@+id/tv_movie_release_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft= "20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/movieBackground"
+                android:textColor="@color/movieReleaseDate"
+                android:layout_toEndOf="@+id/tv_movie_img" />
+
+            <TextView
+                android:id="@+id/tv_movie_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_marginLeft= "20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop= "5dp"
+                android:text="@string/movie_time"
+                android:background="@color/movieBackground"
+                android:textColor="@color/movieReleaseDate"
+                android:layout_toEndOf="@+id/tv_movie_img"
+                android:layout_below="@+id/tv_movie_release_date" />
+
+            <TextView
+                android:id="@+id/tv_movie_rated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin = "20dp"
+                android:background="@color/movieBackground"
+                android:textColor="@android:color/black"
+                android:layout_toEndOf="@+id/tv_movie_img"
+                android:layout_below="@+id/tv_movie_time" />
+
+
+
+            <ImageView
+                android:id="@+id/tv_movie_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft= "20dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="@string/default_movie_image_content_description"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_movie_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+    </LinearLayout>
+</ScrollView>
