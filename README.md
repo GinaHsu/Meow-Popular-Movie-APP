@@ -3,7 +3,7 @@ Udacity- Associate Android Developer Fast Track: https://www.udacity.com/course/
 
 This is a project to build an APP for the popular movies searching.
 
-Note: For NetworkUtils.java, I store the API key in the file- gradle.properties, that are not uploaded to the version control.
+Note: For NetworkUtils.java, I stored the API key in the file- gradle.properties, that is a local file, is not uploaded to the version control.
 
 More information:
 https://stackoverflow.com/questions/35722904/saving-the-api-key-in-gradle-properties
