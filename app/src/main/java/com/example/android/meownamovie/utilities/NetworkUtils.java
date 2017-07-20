@@ -15,7 +15,11 @@
  */
 package com.example.android.meownamovie.utilities;
 
+import android.content.Context;
 import android.net.Uri;
+
+import com.example.android.meownamovie.BuildConfig;
+import com.example.android.meownamovie.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -31,7 +35,7 @@ public final class NetworkUtils {
 
     private final static String BASE = "http://api.themoviedb.org/3/movie/";
     private final static String QUERY_PARAM = "api_key";
-    private final static String MY_APIKEY = "your API KEY";
+    private final static String MY_APIKEY = BuildConfig.THE_MOVIE_DB_API_TOKEN;
 
 
     /**
