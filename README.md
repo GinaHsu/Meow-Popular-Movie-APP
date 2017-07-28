@@ -2,13 +2,13 @@
 Udacity- Associate Android Developer Fast Track: https://www.udacity.com/course/associate-android-developer-fast-track--nd818
 
 This is a project to build an APP for the popular movies searching.
-** Project 1:
+# Project 1:
   Required Tasks
   Build a UI layout for multiple Activities.
   Launch these Activities via Intent.
   Fetch data from themovieDB API
 
-** Project 2:
+# Project 2:
 Add additional functionality to the app we built in Stage 1.
 
   We add more information to our movie details view:
