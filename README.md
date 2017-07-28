@@ -2,6 +2,22 @@
 Udacity- Associate Android Developer Fast Track: https://www.udacity.com/course/associate-android-developer-fast-track--nd818
 
 This is a project to build an APP for the popular movies searching.
+* Project 1:
+  Required Tasks
+  Build a UI layout for multiple Activities.
+  Launch these Activities via Intent.
+  Fetch data from themovieDB API
+
+* Project 2:
+Add additional functionality to the app we built in Stage 1.
+
+We add more information to our movie details view:
+- allow users to view and play trailers ( either in the youtube app or a web browser).
+- allow users to read reviews of a selected movie.
+- allow users to mark a movie as a favorite in the details view by tapping a button(star). This is for a local movies collection that we maintain and do not require an API request*.
+- modify the existing sorting criteria for the main view to include an additional pivot to show their favorites collection.
+  
+------------------------------------------------------------------------------------------------------------------------
 
 Note: For NetworkUtils.java, I stored the API key in the file- gradle.properties, that is a local file loacated in C:\Users\xxx\.gradle (xxx is your user name), is not uploaded to the version control.
 
