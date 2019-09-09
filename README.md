@@ -9,13 +9,13 @@ https://ginahsu.com/portfolio/meow-popular-movie-app/
 ## Udacity course: Associate Android Developer Fast Track: 
 https://www.udacity.com/course/associate-android-developer-fast-track--nd818
 
-## Project 1:
+### Project 1:
   Required Tasks
   Build a UI layout for multiple Activities.
   Launch these Activities via Intent.
   Fetch data from themovieDB API
 
-## Project 2:
+### Project 2:
 Add additional functionality to the app we built in Stage 1.
 
   We add more information to our movie details view:
@@ -26,7 +26,7 @@ Add additional functionality to the app we built in Stage 1.
   
 ------------------------------------------------------------------------------------------------------------------------
 
-##Note: 
+### Note: 
 For NetworkUtils.java, I stored the API key in the file- gradle.properties, that is a local file loacated in C:\Users\xxx\.gradle (xxx is your user name), is not uploaded to the version control.
 
 How to run the movie app?
