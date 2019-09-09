@@ -5,6 +5,7 @@ https://ginahsu.com/portfolio/meow-popular-movie-app/
 
 
 --------------------------------------------------------------------------------------------------------------------------
+
 ## Udacity course: Associate Android Developer Fast Track: 
 https://www.udacity.com/course/associate-android-developer-fast-track--nd818
 
@@ -25,7 +26,8 @@ Add additional functionality to the app we built in Stage 1.
   
 ------------------------------------------------------------------------------------------------------------------------
 
-Note: For NetworkUtils.java, I stored the API key in the file- gradle.properties, that is a local file loacated in C:\Users\xxx\.gradle (xxx is your user name), is not uploaded to the version control.
+##Note: 
+For NetworkUtils.java, I stored the API key in the file- gradle.properties, that is a local file loacated in C:\Users\xxx\.gradle (xxx is your user name), is not uploaded to the version control.
 
 How to run the movie app?
 Create a file named gradle.properties in your local(C:\Users\xxx\.gradle (xxx is your user name)) and added a line, MyMovieDBApiKey="XXXXX", in that file. Then during build time, Gradle will generate the BuildConfig file to store some build-related constants. 
