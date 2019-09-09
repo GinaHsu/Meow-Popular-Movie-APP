@@ -3,6 +3,8 @@ This is an Android app for the popular movies searching.
 https://ginahsu.com/portfolio/meow-popular-movie-app/
 
 
+
+--------------------------------------------------------------------------------------------------------------------------
 ## Udacity course: Associate Android Developer Fast Track: 
 https://www.udacity.com/course/associate-android-developer-fast-track--nd818
 
