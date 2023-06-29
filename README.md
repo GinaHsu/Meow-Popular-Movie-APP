@@ -1,5 +1,5 @@
 # Meow Popular Movie APP: 
-This is an Android app for popular movie searching.
+## This is an Android app for popular movie searching.
 https://ginahsu.com/portfolio/meow-popular-movie-app/
 
 --------------------------------------------------------------------------------------------------------------------------
